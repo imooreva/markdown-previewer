@@ -6,8 +6,8 @@ var Main = (props) => {
     return (
         <div id="main">
             <div className="row">
-                <div className="column small-centered medium-8 large-10">
-                    <h2>Markdown Previewer</h2>
+                <div className="column small-centered medium-6 large-8">
+                    <h2 id="main-header">Markdown Previewer</h2>
                     <Editor/>
                     <Preview/>
                 </div>
