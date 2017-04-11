@@ -2,7 +2,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var marked = require('marked');
-//var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 
 //components
 var Main = require('Main');

@@ -106,7 +106,6 @@
 	var React = __webpack_require__(8);
 	var ReactDOM = __webpack_require__(42);
 	var marked = __webpack_require__(188);
-	//var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 
 	//components
 	var Main = __webpack_require__(189);
