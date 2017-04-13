@@ -1,6 +1,12 @@
 #editor {
     background-color: $editor-bg;
-    border: $editor-border;
-    height: 6rem;
+    border: $border;
+    font-size: $font-size;
+    height: 10rem;
     margin: 0 auto;
+    padding: $padding;
+}
+
+div {
+    padding-bottom: 1.5rem;
 }

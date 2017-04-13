@@ -1,6 +1,9 @@
 #preview {
     background-color: $preview-bg;
-    border: $preview-border;
-    margin-top: 0.5rem;
-    padding: 0.25rem;
+    border: $border;
+    padding: $padding;
+}
+
+#preview p {
+    font-size: $font-size;
 }

@@ -25,6 +25,7 @@ module.exports = {
         alias: {
             applicationStyles: 'app/styles/app.scss',
             Editor: 'app/components/Editor.jsx',
+            Footer: 'app/components/Footer.jsx',
             Main: 'app/components/Main.jsx',
             Preview: 'app/components/Preview.jsx'
         },

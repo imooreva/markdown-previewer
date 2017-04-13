@@ -1,13 +1,14 @@
-//colors
-$grey: #333333;
-
 //Editor
 $editor-bg: #EFF5EF;
-$editor-border: 0.125rem $grey solid;
 
 //Main
 $main-bg: #8FBC8F;
 
 //Preview
 $preview-bg: #BFD9BF;
-$preview-border: 0.125rem $grey solid;
+
+//Multiple components
+$grey: #666666;
+$font-size: 1.25rem;
+$padding: 0.25rem;
+$border: 0.125rem $grey solid;

@@ -7,8 +7,9 @@ var marked = require('marked');
 var Main = require('Main');
 var Editor = require('Editor');
 var Preview = require('Preview');
+var Footer = require('Footer');
 
-// Load foundation and app styles
+//load foundation and app styles
 $(document).foundation();
 require('style!css!sass!applicationStyles')
 
@@ -54,14 +55,14 @@ class App extends React.Component{
     }
     
     render() {
-        //var renderedMarkdown = $('#preview').html(marked(this.state.markdown));
         return (
             <div id="main">
                 <div className="row">
                     <div className="column small-centered medium-8 large-10">
-                        <h2>Markdown Previewer</h2>
+                        <h2 id="main-header">Markdown Previewer</h2>
                         <Editor markdown={this.state.markdown} onChange={this.handleChange}/>
                         <Preview markdown={marked(this.state.markdown)}/>
+                        <Footer/>
                     </div>
                 </div>
             </div> 
