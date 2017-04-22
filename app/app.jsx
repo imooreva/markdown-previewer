@@ -1,4 +1,3 @@
-//require modules
 var React = require('react');
 var ReactDOM = require('react-dom');
 var marked = require('marked');
@@ -29,7 +28,7 @@ Text styles include **bold**, *italic*, \`monospace\`, ~~strikethrough~~, and **
 
 1. List items are __easy.__
 1. Just use the \`1.\` prefix for all items, and add/delete items as needed.
-1. Less mess! _No need to renumber your items._
+1. Less mess! _There's no need to renumber when you make changes._
 
 An \`inline code block\` looks like this...
 
@@ -59,7 +58,7 @@ class App extends React.Component{
             <div id="main">
                 <div className="row">
                     <div className="column small-centered medium-8 large-10">
-                        <h2 id="main-header">Markdown Previewer</h2>
+                        <h1 id="main-header">Markdown Previewer</h1>
                         <Editor markdown={this.state.markdown} onChange={this.handleChange}/>
                         <Preview markdown={marked(this.state.markdown)}/>
                         <Footer/>

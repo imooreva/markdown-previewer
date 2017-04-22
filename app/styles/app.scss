@@ -10,3 +10,23 @@
 @import "components/preview";
 @import "components/editor";
 @import "components/footer";
+
+html, #app {
+    background-color: #AFCFAF;    
+}
+
+h1, h2, h3, h4, h5, h6, li, p {
+    font-family: $font;
+}
+
+@media only screen and (max-width: 480px) {
+    #editor, #footer, #main, #preview {
+        font-size: 0.875rem;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    #editor, #footer, #main, #preview {
+        font-size: 1.125rem;
+    }
+}

@@ -8,10 +8,6 @@ var Main = (props) => {
         <div id="main">
             <div className="row">
                 <div className="column small-centered medium-8 large-10">
-                    <h2 id="main-header">Markdown Previewer</h2>
-                    <Editor/>
-                    <Preview/>
-                    <Footer/>
                 </div>
             </div>
         </div>
