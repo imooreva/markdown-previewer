@@ -1,5 +1,6 @@
 //Editor
 $editor-bg: #EFFEFF;
+$font-mono: 'Ubuntu Mono', monospace;
 
 //Main
 $main-bg: #AFCFAF;
@@ -8,8 +9,10 @@ $main-bg: #AFCFAF;
 $preview-bg: #CFE2CF;
 
 //Multiple components
-$font: 'Open Sans', sans-serif;
+$darkgrey: #333333;
+$font: 'Lato', sans-serif;
 $grey: #666666;
 $font-size: 1.25rem;
 $padding: 0.25rem;
 $border: 0.125rem $grey solid;
+$ul: underline;

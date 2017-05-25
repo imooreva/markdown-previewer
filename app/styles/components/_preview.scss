@@ -1,9 +1,10 @@
 #preview {
     background-color: $preview-bg;
     border: $border;
+    font-size: $font-size;
     padding: $padding;
 }
 
-#preview {
-    font-size: $font-size;
+#preview a:hover {
+    text-decoration: $ul;
 }

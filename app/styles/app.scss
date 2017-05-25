@@ -16,7 +16,12 @@ html, #app {
 }
 
 h1, h2, h3, h4, h5, h6, li, p {
+    color: $darkgrey;
     font-family: $font;
+}
+
+a {
+    color: #0000F0;
 }
 
 @media only screen and (max-width: 480px) {

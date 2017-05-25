@@ -17,10 +17,10 @@ marked.setOptions({
     breaks: true
 });
 
-var markdownPreset = `# Heading, followed by a...
+var markdownPreset = `## Here's a heading...
 
-## Sub-heading
-
+### ...and here's a sub-heading
+---
 Text styles include **bold**, *italic*, \`monospace\`, ~~strikethrough~~, and **_bold italic_**.
 
 >>Here's a link to Github inside of a blockquote
